@@ -29,5 +29,7 @@ App::uses('Model', 'Model');
  *
  * @package       app.Model
  */
+$useTable = false;
 class AppModel extends Model {
+
 }

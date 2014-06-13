@@ -31,4 +31,14 @@ App::uses('Controller', 'Controller');
  * @link		http://book.cakephp.org/2.0/en/controllers.html#the-app-controller
  */
 class AppController extends Controller {
+
+    function beforeRender()
+    {
+        $this->set('title_for_layout','Khao peeo aish karo');
+        $this->set('bride_name','Bride');
+        $this->set('groom_name','Groom');
+
+    }
+
+
 }
